@@ -1,0 +1,215 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+body{
+    color:#4F4F4F;
+    font-family: "Jost", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+a{
+    transition: all 0.5s ease;
+    text-decoration: none;
+    color: #4F4F4F;
+}
+a:hover{
+    color:#7F42E1;
+}
+.container {
+    width: 1170px;
+    max-width: 100%;
+    margin: auto;
+}
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    
+}
+.space-between{
+    justify-content: space-between;
+}
+.header{
+    position: relative;
+    background: url(/Users/ivanberger/Documents/work/new-clients/img/ellipse-l.svg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    padding-bottom: 135px;
+}
+
+.gap10{
+    gap:10px
+}
+.gap30{
+    gap:30px
+}
+.header-menu a{
+    font-weight: 500;
+    padding: 44px 0;
+    position: relative;
+    height: 121px;
+    display: flex;
+    align-items: center;
+}
+.header-menu a:before{
+    background: transparent;
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: '';
+    height: 6px;
+    width: 100%;
+    transition: all 0.5s ease;
+}
+.header-menu a:hover{
+    padding-bottom: 60px;
+}
+.header-menu a:hover:before{
+    border-radius: 0 0 10px 10px;
+    background: #7F42E1;
+}
+.header-menu a:hover:after{
+    top: 48px;
+}
+.header-sale:after{
+    position: absolute;
+    top:57px;
+    content: '';
+    background: url(/Users/ivanberger/Documents/work/new-clients/img/sale-icon.svg);
+    left:0;
+    width: 9px;
+    height: 10px;   
+    transition: all 0.5s ease;
+}
+.header-menu .header-sale{
+    padding-left: 12px;
+}
+.header-graf {
+    font-size: 12px;
+    color: rgba(51, 51, 51, 0.7);
+}
+.header-city {
+    gap: 6px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.social-item a{
+    background: rgba(215, 237, 152, 0.4);
+    border-radius: 8px;
+    padding: 7px;
+    display: block;
+    height: 32px;
+    width: 32px;
+}
+.social-item a:hover{
+    background: rgba(215, 237, 152, 0.7);
+}
+.header-text {
+    margin-top: 13px;
+    width: 100%;
+    text-align: center;
+    font-size: 12px;
+}
+.header-phone-number a {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 32px;
+}
+.header-form a {
+    border: 1px solid #7F42E1;
+    padding: 7px 28px;
+    margin-top: 6px;
+    display: block;
+    border-radius: 10px;
+}
+.header-form a:hover{
+    background: #7F42E1;
+    color: #fff;
+}
+.first-screen {
+    max-width: 730px;
+    margin: auto;
+    text-align: center;
+    padding-top: 65px;
+    
+}
+.first-screen-title {
+    font-family: 'Code Next-Trial';
+    font-size: 46px;
+    font-weight: 700;
+    line-height: 60px;
+    margin-bottom: 35px;
+}
+.first-screen-sub-title {
+    font-size: 20px;
+    font-weight: 400;
+    color: rgba(51, 51, 51, 0.7);
+}
+.first-screen-sub-title {
+    margin-bottom: 25px;
+}
+
+.under-title {
+    font-size: 30px;
+    line-height: 48px;
+}
+.yellow-btn{
+    margin-top: 55px;
+}
+.yellow-btn a {
+    background: rgb(254, 228, 64);
+    background: linear-gradient(90deg, rgba(254, 228, 64, 1) 0%, rgba(254, 228, 64, 0.4038209033613446) 50%, rgba(254, 228, 64, 1) 100%);
+    font-size: 18px;
+    padding: 20px 40px;
+    border-radius: 10px;
+    color: #333333;
+}
+.yellow-btn a:hover{
+    background: rgb(254, 228, 64);
+    background: linear-gradient(90deg, rgba(254, 228, 64, 1) 0%, rgba(254, 228, 64, 0.7) 50%, rgba(254, 228, 64, 1) 100%);
+    color:#333333
+}
+.advant-item {
+    border: 1px solid #DEDEDE;
+    background: #fff;
+    padding: 43px 60px;
+    border-radius: 24px;
+    text-align: center;
+    position: relative;
+    width: 100%;
+    max-width: 356px;
+}
+.advant-title {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 32px;
+}
+.advant-desc {
+    font-weight: 400;
+}
+.advant-title:before, .advant-title:after{
+    position: absolute;
+    content: '';
+    top:50px;
+    width:25px;
+    height: 50px;
+}
+.advant-title:before{
+    background: url(/Users/ivanberger/Documents/work/new-clients/img/lavr-l.svg);
+    left: 30px;
+}
+.advant-title:after{
+    background: url(/Users/ivanberger/Documents/work/new-clients/img/lavr-r.svg);
+    right: 30px;
+}
+.advant {
+    margin-top: -70px;
+}

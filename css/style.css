@@ -39,7 +39,7 @@ a:hover{
 }
 .header{
     position: relative;
-    background: url(/Users/ivanberger/Documents/work/new-clients/img/ellipse-l.svg);
+    background: url(/img/ellipse-l.svg);
     background-repeat: no-repeat;
     background-position: top center;
     padding-bottom: 135px;
@@ -83,7 +83,7 @@ a:hover{
     position: absolute;
     top:57px;
     content: '';
-    background: url(/Users/ivanberger/Documents/work/new-clients/img/sale-icon.svg);
+    background: url(/img/sale-icon.svg);
     left:0;
     width: 9px;
     height: 10px;   
@@ -203,11 +203,11 @@ a:hover{
     height: 50px;
 }
 .advant-title:before{
-    background: url(/Users/ivanberger/Documents/work/new-clients/img/lavr-l.svg);
+    background: url(/img/lavr-l.svg);
     left: 30px;
 }
 .advant-title:after{
-    background: url(/Users/ivanberger/Documents/work/new-clients/img/lavr-r.svg);
+    background: url(/img/lavr-r.svg);
     right: 30px;
 }
 .advant {
